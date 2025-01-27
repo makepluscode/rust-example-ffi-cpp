@@ -1,0 +1,36 @@
+# Rust 관련
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# C++ 관련
+/cpp/build/
+/cpp/CMakeFiles/
+/cpp/CMakeCache.txt
+/cpp/*.cmake
+/cpp/Makefile
+
+# IDE 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 운영체제 관련
+.DS_Store
+Thumbs.db
+
+# 컴파일된 파일들
+*.o
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# CMake 생성 파일들
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json

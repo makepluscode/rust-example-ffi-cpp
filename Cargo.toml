@@ -1,0 +1,8 @@
+[package]
+name = "rust-example-ffi-cpp"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "my_counter"
+crate-type = ["cdylib"]
